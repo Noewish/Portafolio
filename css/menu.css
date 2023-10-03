@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0 5rem;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 1.20rem;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+.nav-link:hover {
+    color: #ea4c89;
+}
+
+.navbar-toggler {
+    margin-top: 1rem;
+}
+
+@media screen and (max-width:796px) {
+    .container-fluid {
+        padding: 0 3rem;
+    }
+}
